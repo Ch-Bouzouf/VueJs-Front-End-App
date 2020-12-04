@@ -1,0 +1,5 @@
+mutation signup ($firstname: String!, $lastname: String!, $username2: String!, $email: String!, $password2: String!) {
+signUp(firstname: $firstname, lastname: $lastname, username: $username2, email: $email, password: $password2) {
+ok
+}
+}

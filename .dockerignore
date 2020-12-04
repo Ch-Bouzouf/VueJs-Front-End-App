@@ -1,0 +1,8 @@
+assets/node_modules
+_build
+.elixir_ls
+.git
+test
+Dockerfile.*
+deployment/
+node_modules/

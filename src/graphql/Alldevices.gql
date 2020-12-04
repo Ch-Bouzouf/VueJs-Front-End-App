@@ -1,0 +1,28 @@
+query {
+   allDevices{
+    edges{
+      node{
+        id
+        idUser
+        addressip
+        typedevice
+        osversion
+        user{
+          firstname
+          lastname
+          username
+          role
+          devices {
+            edges {
+              node {
+                id
+              }
+            }
+          }
+        }
+        
+      }
+    }
+  
+  }
+}

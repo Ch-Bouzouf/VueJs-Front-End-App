@@ -1,0 +1,5 @@
+mutation updateUser($id: UUID!, $idDevice: UUID!, $firstname: String, $lastname: String, $username: String, $role: String) {
+updateUser(id: $id, idDevice: $idDevice, role: $value) {
+ok
+}
+}
